@@ -1,0 +1,17 @@
+@import "../../views/globals.scss";
+
+.search-suggestions {
+  position: relative;
+
+  .input-field {
+    border-radius: $border-radius-md $border-radius-md $border-radius-xs $border-radius-xs;
+
+    @media (min-width: $breakpoint-md) {
+      border-radius: $border-radius-md $border-radius-xs $border-radius-xs $border-radius-md;
+    }
+
+    svg {
+      font-size: 1.5rem;
+    }
+  }
+}

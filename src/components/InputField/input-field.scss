@@ -1,0 +1,20 @@
+@import "../../views/globals.scss";
+
+.input-field {
+  display: flex;
+  align-items: center;
+  background: $color-white;
+  padding: $spacing-md;
+  border-radius: $border-radius-xs;
+
+  .input-field__icon {
+    width: 2rem;
+    text-align: center;
+    margin-right: $spacing-xs;
+    color: $color-black;
+
+    svg {
+      font-size: medium;
+    }
+  }
+}

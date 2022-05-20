@@ -1,0 +1,77 @@
+@import "../globals.scss";
+
+.hero {
+  background: $color-primary;
+  color: $color-white;
+  padding-bottom: 4rem;
+
+  &__title {
+    font-family: $font-family-heading;
+    font-weight: 700;
+    padding: $spacing-xl 0;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    @media (min-width: $breakpoint-md) {
+      font-size: 40px;
+      line-height: 52px;
+    }
+  }
+}
+
+.location-checkbox {
+  padding-left: $spacing-sm;
+  padding-bottom: $spacing-md;
+
+  .MuiSvgIcon-root {
+    background: $color-white;
+    border-radius: $border-radius-sm;
+    color: $color-white;
+    width: 20px;
+    height: 20px;
+    margin: $spacing-xs;
+  }
+
+  .Mui-checked .MuiSvgIcon-root {
+    background: $color-primary;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+  }
+}
+
+.search-container {
+  background: #ffb700;
+  border-radius: $border-radius-lg;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 16%);
+  padding: $spacing-md;
+
+  .MuiSvgIcon-root {
+    margin-right: $spacing-sm;
+  }
+
+  .MuiInputLabel-root {
+    top: -$spacing-md;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: $font-family-body;
+  }
+
+  .MuiInputLabel-shrink {
+    top: $spacing-sm;
+    color: $color-gray;
+  }
+
+  .search-btn {
+    height: 4rem;
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: $font-family-heading;
+  }
+}

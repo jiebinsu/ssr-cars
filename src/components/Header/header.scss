@@ -1,0 +1,22 @@
+@import "../../views/globals.scss";
+
+.header {
+  background: $color-primary;
+  height: 4rem;
+  color: $color-white;
+}
+
+.header-wrap {
+  padding-top: $spacing-md;
+  padding-left: $spacing-lg;
+  padding-right: $spacing-lg;
+}
+
+.header-logo {
+  margin-left: $spacing-md;
+  margin-right: auto;
+}
+
+.header__logo {
+  padding: $spacing-lg 0;
+}
